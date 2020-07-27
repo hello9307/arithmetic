@@ -20,8 +20,8 @@
                     },
                     {
                         id: 2,
-                        label: '其它',
-                        path: '/sort'
+                        label: '趣味题',
+                        path: '/brains'
                     },
                 ]
             }

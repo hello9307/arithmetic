@@ -18,7 +18,7 @@
 
         <!--插入排序-->
         <div class="module">
-            <div class="module-title">插入排序</div>
+            <div class="module-title">插入排序(对于少量元素比较有效)</div>
             <div class="module-content">
                 <Insert></Insert>
             </div>
@@ -54,25 +54,6 @@
 </script>
 
 <style scoped lang="less">
-    .sort{
 
-    }
-    .module{
-        .module-title{
-            font-size: 16px;
-            font-weight: bold;
-            padding-left: 10px;
-            position: relative;
-            &::before{
-                content: '';
-                position: absolute;
-                left: 0;
-                top: 50%;
-                transform: translateY(-50%);
-                width: 3px;
-                height: 80%;
-                background-color: red;
-            }
-        }
-    }
+
 </style>

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Wrapper from '@/views/common/Wrapper'
 import Sort from '@/views/sort/Sort'
+import Brains from '@/views/brains/Brains'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ Vue.use(VueRouter)
           path: '/sort',
           name: 'sort',
           component: Sort
+        },
+        {
+          path: '/brains',
+          name: 'brains',
+          component: Brains
         }
       ]
     },
